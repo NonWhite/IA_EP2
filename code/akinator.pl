@@ -1,3 +1,8 @@
+/*
+ * N° USP: 9410313
+ * Nome: Walter Perez Urcia
+*/
+
 :- dynamic yes/1,no/1.
 
 go :- nl,
@@ -15,44 +20,31 @@ go :- nl,
       undo.
 
 /* hipóteses a serem testadas */
-guess(você)   :- você, !.
-guess(homer_simpsom)   :- homer_simpsom, !.
-guess(tweety) :- tweety, !.
-guess(walter_white)   :- walter_white, !.
+guess( bulbasaur ) :- bulbasaur , !.
+guess( charmander ) :- charmander , !.
+guess( slowpoke ) :- slowpoke , !.
+guess( metapod ) :- metapod , !.
 guess(desconhecido).
 
 /* regras */
-pessoa:- tem_gênero.
-
-animal:- verify(é_um_animal),!.
-animal:- not(pessoa).
-
 cartoon:- ( animal ; pessoa),
     verify(é_um_desenho),
     verify(é_famoso).
 
-homer_simpsom :- pessoa,
-		cartoon,
-        verify(é_amarelo),
-    	verify(participa_numa_serie_TV),!.
+bulbasaur :- verify( é_tipo_planta ) ,
+				verify( é_tipo_veneno ) ,
+				verify( é_verde ) , !.
 
-você :- pessoa,
-    verify(pertence_a_tua_familia),
-    verify(conhece_desde_sempre_tua_familia),!.
+charmander :- verify( é_tipo_fogo ) ,
+				verify( é_um_lagarto ) ,
+				verify( é_vermelho ) , !.
 
-tweety :- animal, cartoon,
-    	verify(é_amarelo),
-    	verify(participa_na_serie_Looney_Tunes),!.
+slowpoke :- verify( é_tipo_agua ) ,
+			verify( é_tipo_psiquico ) ,
+			verify( é_rosa ) , !.
 
-walter_white :- pessoa,
-    	verify(é_do_gênero_masculino),
-        verify(é_do_mal),
-        verify(é_ator_drama),
-    	verify(participa_na_serie_Breaking_Bad),!.
-
-tem_gênero:- verify(é_do_gênero_masculino); verify(é_do_gênero_feminino),!.
-no(é_do_gênero_feminino):- yes(é_do_gênero_masculino).
-yes(é_do_gênero_feminino):- no(é_do_gênero_masculino).
+metapod :- verify( é_tipo_insecto ) ,
+			verify( é_verde ) , !.
 
 /* Selecionador de perguntas */
 ask(Question) :-
