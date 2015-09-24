@@ -1,6 +1,1 @@
 Podem ser adicionados dados como:
-- Cor
-- Tamanho ( Grande , Mediano , Pequeno )
-- Peso ( Pesado , Medio , Ligero )
-- Tem evolução
-- É evolução
