@@ -1,1 +1,2 @@
-Podem ser adicionados dados como:
+Podem ser adicionados:
+- Regras de exclusão para tipos de pokemon
