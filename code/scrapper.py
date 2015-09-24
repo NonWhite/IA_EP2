@@ -19,12 +19,13 @@ def extractData( url ) :
 	data = {}
 	req = session.get( url )
 	doc = bs.BeautifulSoup( req.content )
-	tabs = doc( 'table' , { 'class' : 'roundy' , 'width' : '100%' } )[ :4 ]
+	tabs = doc( 'table' , { 'class' : 'roundy' , 'width' : '100%' } )[ :30 ]
 	data[ 'name' ] = tabs[ 0 ]( 'td' )[ 1 ]( 'b' )[ 0 ].text
 	data[ 'description' ] = tabs[ 0 ]( 'td' )[ 1 ]( 'span' )[ 0 ].text
 	data[ 'img_url' ] = tabs[ 1 ]( 'td' )[ 0 ]( 'img' )[ 0 ].get( 'src' )
 	data[ 'type' ] = list( set( [ str( t( 'a' )[ 0 ].text ) for t in tabs[ 2 ]( 'td' ) if not ishidden( t ) ] ) )
 	data[ 'ability' ] = [ str( t( 'span' )[ 0 ].text ) for t in tabs[ 3 ]( 'td' ) if not ishidden( t ) ]
+	data[ 'color' ] = tabs[ 18 ]( 'td' )[ 0 ].text[ 7: ]
 	req.close()
 	return data
 
@@ -40,14 +41,20 @@ def extractList() :
 	req.close()
 	return links
 
-if __name__ == '__main__' :
+def scrap() :
 	links = extractList()
 	cont = 0
+	all_data = []
 	for url in links :
 		data = extractData( url )
 		#for k in data : print "%s = %s" % ( k , data[ k ] )
-		convertToJson( data )
+		all_data.append( data )
 		cont += 1
 		if cont == MAX_CHUNK :
+			print data[ 'name' ]
 			time.sleep( SLEEP_TIME )
 			cont = 0
+	convertToJson( all_data , mode = 'w' )
+
+if __name__ == '__main__' :
+	scrap()
