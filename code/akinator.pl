@@ -20,31 +20,15 @@ go :- nl,
       undo.
 
 /* hipóteses a serem testadas */
-guess( bulbasaur ) :- bulbasaur , !.
-guess( charmander ) :- charmander , !.
-guess( slowpoke ) :- slowpoke , !.
-guess( metapod ) :- metapod , !.
-guess(desconhecido).
 
 /* regras */
-cartoon:- ( animal ; pessoa),
-    verify(é_um_desenho),
-    verify(é_famoso).
+yes( small_size ) :- no( medium_size ) , no( big_size ) .
+yes( medium_size ) :- no( small_size ) , no( big_size ) .
+yes( big_size ) :- no( small_size ) , no( medium_size ) .
 
-bulbasaur :- verify( é_tipo_planta ) ,
-				verify( é_tipo_veneno ) ,
-				verify( é_verde ) , !.
-
-charmander :- verify( é_tipo_fogo ) ,
-				verify( é_um_lagarto ) ,
-				verify( é_vermelho ) , !.
-
-slowpoke :- verify( é_tipo_agua ) ,
-			verify( é_tipo_psiquico ) ,
-			verify( é_rosa ) , !.
-
-metapod :- verify( é_tipo_insecto ) ,
-			verify( é_verde ) , !.
+yes( light_weight ) :- no( medium_weight ) , no( heavy_weight ) .
+yes( medium_weight ) :- no( light_weight ) , no( heavy_weight ) .
+yes( heavy_weight ) :- no( light_weight ) , no( medium_weight ) .
 
 /* Selecionador de perguntas */
 ask(Question) :-
