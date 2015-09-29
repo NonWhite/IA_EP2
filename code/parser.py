@@ -11,6 +11,7 @@ def changeToSatisfyRule( pk_data ) :
 	rule += "\t\tverify( %s_weight ) ,\n" % pk_data[ 'weight' ]
 	if pk_data[ 'has_evolution' ] == 'true' : rule += '\t\tverify( has_evolution ) ,\n'
 	if pk_data[ 'is_evolution' ] == 'true' : rule += '\t\tverify( is_evolution ) ,\n'
+	if pk_data[ 'is_starter' ] == 'true' : rule += '\t\tverify( is_starter ) ,\n'
 	rule += "\t\t!."
 	return rule
 
