@@ -11,8 +11,8 @@ MAX_CHUNK = 10
 
 DATA_DIR = '../data/'
 DESC_FILE = '%sdata.json' % DATA_DIR
-RULES_FILE = '%srules.pl' % DATA_DIR
-FIELD_FILES = [ "size.txt" , "weight.txt" , "has_evolution.txt" , "is_evolution.txt" ]
+RULES_FILE = '%sgenerated_rules.pl' % DATA_DIR
+FIELD_FILES = [ "size.txt" , "weight.txt" , "has_evolution.txt" , "is_evolution.txt" , "is_starter.txt" ]
 
 REPLACE_CHARS = {
 	u"\u00e9" : 'e' ,
