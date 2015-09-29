@@ -1,2 +1,8 @@
-Podem ser adicionados:
-- Regras de exclusão para tipos de pokemon
+Podem ser ordenados os atributos:
+- Primeiro os que restringem mais a busca
+
+Podem ser ordenados os pokemon:
+- Por algum atributo (posivelmente aquele que restringe mais a busca)
+
+Adicionar regras do tipo:
+- Se nao e pequeno nem mediano, entao e grande
