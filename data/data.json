@@ -9,6 +9,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/2/21/001Bulbasaur.png/250px-001Bulbasaur.png", 
         "is_evolution": "False", 
+        "is_starter": "True", 
         "name": "bulbasaur", 
         "size": "Small", 
         "type": [
@@ -27,6 +28,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/7/73/002Ivysaur.png/250px-002Ivysaur.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "ivysaur", 
         "size": "Small", 
         "type": [
@@ -46,6 +48,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/a/ae/003Venusaur.png/250px-003Venusaur.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "venusaur", 
         "size": "Medium", 
         "type": [
@@ -64,6 +67,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/7/73/004Charmander.png/250px-004Charmander.png", 
         "is_evolution": "False", 
+        "is_starter": "True", 
         "name": "charmander", 
         "size": "Small", 
         "type": [
@@ -81,6 +85,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/4a/005Charmeleon.png/250px-005Charmeleon.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "charmeleon", 
         "size": "Small", 
         "type": [
@@ -100,6 +105,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/7/7e/006Charizard.png/250px-006Charizard.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "charizard", 
         "size": "Medium", 
         "type": [
@@ -119,6 +125,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/3/39/007Squirtle.png/250px-007Squirtle.png", 
         "is_evolution": "False", 
+        "is_starter": "True", 
         "name": "squirtle", 
         "size": "Small", 
         "type": [
@@ -136,6 +143,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/0/0c/008Wartortle.png/250px-008Wartortle.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "wartortle", 
         "size": "Small", 
         "type": [
@@ -154,6 +162,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/0/02/009Blastoise.png/250px-009Blastoise.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "blastoise", 
         "size": "Medium", 
         "type": [
@@ -171,6 +180,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/5/5d/010Caterpie.png/250px-010Caterpie.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "caterpie", 
         "size": "Small", 
         "type": [
@@ -187,6 +197,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/c/cd/011Metapod.png/250px-011Metapod.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "metapod", 
         "size": "Small", 
         "type": [
@@ -204,6 +215,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/d/d1/012Butterfree.png/250px-012Butterfree.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "butterfree", 
         "size": "Small", 
         "type": [
@@ -222,6 +234,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/d/df/013Weedle.png/250px-013Weedle.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "weedle", 
         "size": "Small", 
         "type": [
@@ -239,6 +252,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/f/f0/014Kakuna.png/250px-014Kakuna.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "kakuna", 
         "size": "Small", 
         "type": [
@@ -258,6 +272,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/6/61/015Beedrill.png/250px-015Beedrill.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "beedrill", 
         "size": "Small", 
         "type": [
@@ -276,6 +291,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/5/55/016Pidgey.png/250px-016Pidgey.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "pidgey", 
         "size": "Small", 
         "type": [
@@ -294,6 +310,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/7/7a/017Pidgeotto.png/250px-017Pidgeotto.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "pidgeotto", 
         "size": "Small", 
         "type": [
@@ -313,6 +330,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/5/57/018Pidgeot.png/250px-018Pidgeot.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "pidgeot", 
         "size": "Medium", 
         "type": [
@@ -331,6 +349,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/46/019Rattata.png/250px-019Rattata.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "rattata", 
         "size": "Small", 
         "type": [
@@ -348,6 +367,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/f/f4/020Raticate.png/250px-020Raticate.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "raticate", 
         "size": "Small", 
         "type": [
@@ -365,6 +385,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/8/8b/021Spearow.png/250px-021Spearow.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "spearow", 
         "size": "Small", 
         "type": [
@@ -383,6 +404,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/a/a0/022Fearow.png/250px-022Fearow.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "fearow", 
         "size": "Small", 
         "type": [
@@ -401,6 +423,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/f/fa/023Ekans.png/250px-023Ekans.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "ekans", 
         "size": "Medium", 
         "type": [
@@ -418,6 +441,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/c/cd/024Arbok.png/250px-024Arbok.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "arbok", 
         "size": "Big", 
         "type": [
@@ -436,6 +460,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/0/0d/025Pikachu.png/250px-025Pikachu.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "pikachu", 
         "size": "Small", 
         "type": [
@@ -453,6 +478,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/8/88/026Raichu.png/250px-026Raichu.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "raichu", 
         "size": "Small", 
         "type": [
@@ -470,6 +496,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/9/9e/027Sandshrew.png/250px-027Sandshrew.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "sandshrew", 
         "size": "Small", 
         "type": [
@@ -487,6 +514,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/0/0b/028Sandslash.png/250px-028Sandslash.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "sandslash", 
         "size": "Small", 
         "type": [
@@ -504,6 +532,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/8/81/029Nidoran.png/250px-029Nidoran.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "nidoran_female", 
         "size": "Small", 
         "type": [
@@ -521,6 +550,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/c/cd/030Nidorina.png/250px-030Nidorina.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "nidorina", 
         "size": "Small", 
         "type": [
@@ -538,6 +568,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/b/bf/031Nidoqueen.png/250px-031Nidoqueen.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "nidoqueen", 
         "size": "Medium", 
         "type": [
@@ -556,6 +587,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/4a/032Nidoran.png/250px-032Nidoran.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "nidoran_male", 
         "size": "Small", 
         "type": [
@@ -573,6 +605,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/9/9f/033Nidorino.png/250px-033Nidorino.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "nidorino", 
         "size": "Small", 
         "type": [
@@ -590,6 +623,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/c/c6/034Nidoking.png/250px-034Nidoking.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "nidoking", 
         "size": "Medium", 
         "type": [
@@ -608,6 +642,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/f/f4/035Clefairy.png/250px-035Clefairy.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "clefairy", 
         "size": "Small", 
         "type": [
@@ -625,6 +660,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/a/a9/036Clefable.png/250px-036Clefable.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "clefable", 
         "size": "Medium", 
         "type": [
@@ -642,6 +678,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/6/60/037Vulpix.png/250px-037Vulpix.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "vulpix", 
         "size": "Small", 
         "type": [
@@ -659,6 +696,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/0/05/038Ninetales.png/250px-038Ninetales.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "ninetales", 
         "size": "Small", 
         "type": [
@@ -676,6 +714,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/3/3e/039Jigglypuff.png/250px-039Jigglypuff.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "jigglypuff", 
         "size": "Small", 
         "type": [
@@ -694,6 +733,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/9/92/040Wigglytuff.png/250px-040Wigglytuff.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "wigglytuff", 
         "size": "Small", 
         "type": [
@@ -712,6 +752,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/d/da/041Zubat.png/250px-041Zubat.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "zubat", 
         "size": "Small", 
         "type": [
@@ -730,6 +771,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/0/0c/042Golbat.png/250px-042Golbat.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "golbat", 
         "size": "Medium", 
         "type": [
@@ -748,6 +790,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/43/043Oddish.png/250px-043Oddish.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "oddish", 
         "size": "Small", 
         "type": [
@@ -766,6 +809,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/2/2a/044Gloom.png/250px-044Gloom.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "gloom", 
         "size": "Small", 
         "type": [
@@ -784,6 +828,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/6/6a/045Vileplume.png/250px-045Vileplume.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "vileplume", 
         "size": "Small", 
         "type": [
@@ -802,6 +847,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/d/d4/046Paras.png/250px-046Paras.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "paras", 
         "size": "Small", 
         "type": [
@@ -820,6 +866,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/8/80/047Parasect.png/250px-047Parasect.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "parasect", 
         "size": "Small", 
         "type": [
@@ -838,6 +885,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/a/ad/048Venonat.png/250px-048Venonat.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "venonat", 
         "size": "Small", 
         "type": [
@@ -856,6 +904,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/d/d3/049Venomoth.png/250px-049Venomoth.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "venomoth", 
         "size": "Medium", 
         "type": [
@@ -874,6 +923,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/3/31/050Diglett.png/250px-050Diglett.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "diglett", 
         "size": "Small", 
         "type": [
@@ -891,6 +941,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/e/e5/051Dugtrio.png/250px-051Dugtrio.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "dugtrio", 
         "size": "Small", 
         "type": [
@@ -908,6 +959,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/d/d6/052Meowth.png/250px-052Meowth.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "meowth", 
         "size": "Small", 
         "type": [
@@ -925,6 +977,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/1/13/053Persian.png/250px-053Persian.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "persian", 
         "size": "Small", 
         "type": [
@@ -942,6 +995,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/5/53/054Psyduck.png/250px-054Psyduck.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "psyduck", 
         "size": "Small", 
         "type": [
@@ -959,6 +1013,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/f/fe/055Golduck.png/250px-055Golduck.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "golduck", 
         "size": "Medium", 
         "type": [
@@ -976,6 +1031,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/41/056Mankey.png/250px-056Mankey.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "mankey", 
         "size": "Small", 
         "type": [
@@ -993,6 +1049,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/9/9a/057Primeape.png/250px-057Primeape.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "primeape", 
         "size": "Small", 
         "type": [
@@ -1010,6 +1067,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/3/3d/058Growlithe.png/250px-058Growlithe.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "growlithe", 
         "size": "Small", 
         "type": [
@@ -1027,6 +1085,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/b/b8/059Arcanine.png/250px-059Arcanine.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "arcanine", 
         "size": "Medium", 
         "type": [
@@ -1044,6 +1103,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/49/060Poliwag.png/250px-060Poliwag.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "poliwag", 
         "size": "Small", 
         "type": [
@@ -1061,6 +1121,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/a/a9/061Poliwhirl.png/250px-061Poliwhirl.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "poliwhirl", 
         "size": "Small", 
         "type": [
@@ -1078,6 +1139,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/2/2d/062Poliwrath.png/250px-062Poliwrath.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "poliwrath", 
         "size": "Medium", 
         "type": [
@@ -1096,6 +1158,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/6/62/063Abra.png/250px-063Abra.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "abra", 
         "size": "Small", 
         "type": [
@@ -1113,6 +1176,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/9/97/064Kadabra.png/250px-064Kadabra.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "kadabra", 
         "size": "Medium", 
         "type": [
@@ -1131,6 +1195,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/c/cc/065Alakazam.png/250px-065Alakazam.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "alakazam", 
         "size": "Medium", 
         "type": [
@@ -1148,6 +1213,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/8/85/066Machop.png/250px-066Machop.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "machop", 
         "size": "Small", 
         "type": [
@@ -1165,6 +1231,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/8/8e/067Machoke.png/250px-067Machoke.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "machoke", 
         "size": "Medium", 
         "type": [
@@ -1182,6 +1249,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/8/8f/068Machamp.png/250px-068Machamp.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "machamp", 
         "size": "Medium", 
         "type": [
@@ -1199,6 +1267,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/a/a2/069Bellsprout.png/250px-069Bellsprout.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "bellsprout", 
         "size": "Small", 
         "type": [
@@ -1217,6 +1286,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/9/9f/070Weepinbell.png/250px-070Weepinbell.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "weepinbell", 
         "size": "Small", 
         "type": [
@@ -1235,6 +1305,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/b/be/071Victreebel.png/250px-071Victreebel.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "victreebel", 
         "size": "Medium", 
         "type": [
@@ -1253,6 +1324,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/4e/072Tentacool.png/250px-072Tentacool.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "tentacool", 
         "size": "Small", 
         "type": [
@@ -1271,6 +1343,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/f/f6/073Tentacruel.png/250px-073Tentacruel.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "tentacruel", 
         "size": "Medium", 
         "type": [
@@ -1289,6 +1362,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/9/98/074Geodude.png/250px-074Geodude.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "geodude", 
         "size": "Small", 
         "type": [
@@ -1307,6 +1381,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/7/75/075Graveler.png/250px-075Graveler.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "graveler", 
         "size": "Small", 
         "type": [
@@ -1325,6 +1400,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/f/f2/076Golem.png/250px-076Golem.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "golem", 
         "size": "Medium", 
         "type": [
@@ -1343,6 +1419,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/3/3b/077Ponyta.png/250px-077Ponyta.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "ponyta", 
         "size": "Small", 
         "type": [
@@ -1360,6 +1437,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/3/3f/078Rapidash.png/250px-078Rapidash.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "rapidash", 
         "size": "Medium", 
         "type": [
@@ -1377,6 +1455,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/7/70/079Slowpoke.png/250px-079Slowpoke.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "slowpoke", 
         "size": "Small", 
         "type": [
@@ -1396,6 +1475,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/8/80/080Slowbro.png/250px-080Slowbro.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "slowbro", 
         "size": "Medium", 
         "type": [
@@ -1414,6 +1494,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/6/6c/081Magnemite.png/250px-081Magnemite.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "magnemite", 
         "size": "Small", 
         "type": [
@@ -1432,6 +1513,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/7/72/082Magneton.png/250px-082Magneton.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "magneton", 
         "size": "Small", 
         "type": [
@@ -1450,6 +1532,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/f/f8/083Farfetch%27d.png/250px-083Farfetch%27d.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "farfetchd", 
         "size": "Small", 
         "type": [
@@ -1468,6 +1551,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/5/54/084Doduo.png/250px-084Doduo.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "doduo", 
         "size": "Medium", 
         "type": [
@@ -1486,6 +1570,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/9/93/085Dodrio.png/250px-085Dodrio.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "dodrio", 
         "size": "Medium", 
         "type": [
@@ -1504,6 +1589,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/1/1f/086Seel.png/250px-086Seel.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "seel", 
         "size": "Small", 
         "type": [
@@ -1521,6 +1607,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/c/c7/087Dewgong.png/250px-087Dewgong.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "dewgong", 
         "size": "Medium", 
         "type": [
@@ -1539,6 +1626,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/a/a0/088Grimer.png/250px-088Grimer.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "grimer", 
         "size": "Small", 
         "type": [
@@ -1556,6 +1644,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/7/7c/089Muk.png/250px-089Muk.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "muk", 
         "size": "Small", 
         "type": [
@@ -1573,6 +1662,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/40/090Shellder.png/250px-090Shellder.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "shellder", 
         "size": "Small", 
         "type": [
@@ -1590,6 +1680,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/1/1d/091Cloyster.png/250px-091Cloyster.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "cloyster", 
         "size": "Medium", 
         "type": [
@@ -1607,6 +1698,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/c/ca/092Gastly.png/250px-092Gastly.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "gastly", 
         "size": "Medium", 
         "type": [
@@ -1624,6 +1716,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/6/62/093Haunter.png/250px-093Haunter.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "haunter", 
         "size": "Medium", 
         "type": [
@@ -1642,6 +1735,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/c/c6/094Gengar.png/250px-094Gengar.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "gengar", 
         "size": "Medium", 
         "type": [
@@ -1660,6 +1754,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/9/9a/095Onix.png/250px-095Onix.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "onix", 
         "size": "Big", 
         "type": [
@@ -1678,6 +1773,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/3/3e/096Drowzee.png/250px-096Drowzee.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "drowzee", 
         "size": "Small", 
         "type": [
@@ -1695,6 +1791,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/0/0a/097Hypno.png/250px-097Hypno.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "hypno", 
         "size": "Medium", 
         "type": [
@@ -1712,6 +1809,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/a/a7/098Krabby.png/250px-098Krabby.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "krabby", 
         "size": "Small", 
         "type": [
@@ -1729,6 +1827,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/7/71/099Kingler.png/250px-099Kingler.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "kingler", 
         "size": "Medium", 
         "type": [
@@ -1746,6 +1845,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/d/da/100Voltorb.png/250px-100Voltorb.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "voltorb", 
         "size": "Small", 
         "type": [
@@ -1763,6 +1863,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/8/84/101Electrode.png/250px-101Electrode.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "electrode", 
         "size": "Small", 
         "type": [
@@ -1780,6 +1881,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/a/af/102Exeggcute.png/250px-102Exeggcute.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "exeggcute", 
         "size": "Small", 
         "type": [
@@ -1798,6 +1900,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/2/24/103Exeggutor.png/250px-103Exeggutor.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "exeggutor", 
         "size": "Medium", 
         "type": [
@@ -1816,6 +1919,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/2/2a/104Cubone.png/250px-104Cubone.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "cubone", 
         "size": "Small", 
         "type": [
@@ -1833,6 +1937,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/9/98/105Marowak.png/250px-105Marowak.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "marowak", 
         "size": "Small", 
         "type": [
@@ -1850,6 +1955,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/3/32/106Hitmonlee.png/250px-106Hitmonlee.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "hitmonlee", 
         "size": "Medium", 
         "type": [
@@ -1867,6 +1973,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/a/a3/107Hitmonchan.png/250px-107Hitmonchan.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "hitmonchan", 
         "size": "Medium", 
         "type": [
@@ -1884,6 +1991,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/0/00/108Lickitung.png/250px-108Lickitung.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "lickitung", 
         "size": "Small", 
         "type": [
@@ -1900,6 +2008,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/1/17/109Koffing.png/250px-109Koffing.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "koffing", 
         "size": "Small", 
         "type": [
@@ -1916,6 +2025,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/42/110Weezing.png/250px-110Weezing.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "weezing", 
         "size": "Small", 
         "type": [
@@ -1933,6 +2043,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/9/9b/111Rhyhorn.png/250px-111Rhyhorn.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "rhyhorn", 
         "size": "Small", 
         "type": [
@@ -1951,6 +2062,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/47/112Rhydon.png/250px-112Rhydon.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "rhydon", 
         "size": "Medium", 
         "type": [
@@ -1969,6 +2081,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/c/cd/113Chansey.png/250px-113Chansey.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "chansey", 
         "size": "Small", 
         "type": [
@@ -1986,6 +2099,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/3/3e/114Tangela.png/250px-114Tangela.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "tangela", 
         "size": "Small", 
         "type": [
@@ -2004,6 +2118,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/4e/115Kangaskhan.png/250px-115Kangaskhan.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "kangaskhan", 
         "size": "Big", 
         "type": [
@@ -2021,6 +2136,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/5/5a/116Horsea.png/250px-116Horsea.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "horsea", 
         "size": "Small", 
         "type": [
@@ -2038,6 +2154,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/2/26/117Seadra.png/250px-117Seadra.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "seadra", 
         "size": "Small", 
         "type": [
@@ -2055,6 +2172,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/7/7b/118Goldeen.png/250px-118Goldeen.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "goldeen", 
         "size": "Small", 
         "type": [
@@ -2072,6 +2190,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/6/6a/119Seaking.png/250px-119Seaking.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "seaking", 
         "size": "Medium", 
         "type": [
@@ -2089,6 +2208,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/4f/120Staryu.png/250px-120Staryu.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "staryu", 
         "size": "Small", 
         "type": [
@@ -2106,6 +2226,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/c/cd/121Starmie.png/250px-121Starmie.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "starmie", 
         "size": "Small", 
         "type": [
@@ -2124,6 +2245,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/e/ec/122Mr._Mime.png/250px-122Mr._Mime.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "mr_mime", 
         "size": "Medium", 
         "type": [
@@ -2142,6 +2264,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/b/ba/123Scyther.png/250px-123Scyther.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "scyther", 
         "size": "Medium", 
         "type": [
@@ -2160,6 +2283,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/7/7c/124Jynx.png/250px-124Jynx.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "jynx", 
         "size": "Medium", 
         "type": [
@@ -2178,6 +2302,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/d/de/125Electabuzz.png/250px-125Electabuzz.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "electabuzz", 
         "size": "Small", 
         "type": [
@@ -2195,6 +2320,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/8/8c/126Magmar.png/250px-126Magmar.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "magmar", 
         "size": "Medium", 
         "type": [
@@ -2213,6 +2339,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/7/71/127Pinsir.png/250px-127Pinsir.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "pinsir", 
         "size": "Medium", 
         "type": [
@@ -2231,6 +2358,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/b/b8/128Tauros.png/250px-128Tauros.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "tauros", 
         "size": "Medium", 
         "type": [
@@ -2248,6 +2376,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/0/02/129Magikarp.png/250px-129Magikarp.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "magikarp", 
         "size": "Small", 
         "type": [
@@ -2266,6 +2395,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/41/130Gyarados.png/250px-130Gyarados.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "gyarados", 
         "size": "Big", 
         "type": [
@@ -2285,6 +2415,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/a/ab/131Lapras.png/250px-131Lapras.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "lapras", 
         "size": "Big", 
         "type": [
@@ -2303,6 +2434,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/3/36/132Ditto.png/250px-132Ditto.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "ditto", 
         "size": "Small", 
         "type": [
@@ -2320,6 +2452,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/e/e2/133Eevee.png/250px-133Eevee.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "eevee", 
         "size": "Small", 
         "type": [
@@ -2337,6 +2470,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/f/fd/134Vaporeon.png/250px-134Vaporeon.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "vaporeon", 
         "size": "Small", 
         "type": [
@@ -2354,6 +2488,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/b/bb/135Jolteon.png/250px-135Jolteon.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "jolteon", 
         "size": "Small", 
         "type": [
@@ -2371,6 +2506,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/d/dd/136Flareon.png/250px-136Flareon.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "flareon", 
         "size": "Small", 
         "type": [
@@ -2388,6 +2524,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/6/6b/137Porygon.png/250px-137Porygon.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "porygon", 
         "size": "Small", 
         "type": [
@@ -2405,6 +2542,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/7/79/138Omanyte.png/250px-138Omanyte.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "omanyte", 
         "size": "Small", 
         "type": [
@@ -2423,6 +2561,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/43/139Omastar.png/250px-139Omastar.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "omastar", 
         "size": "Small", 
         "type": [
@@ -2441,6 +2580,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/f/f9/140Kabuto.png/250px-140Kabuto.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "kabuto", 
         "size": "Small", 
         "type": [
@@ -2459,6 +2599,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/2/29/141Kabutops.png/250px-141Kabutops.png", 
         "is_evolution": "TRue", 
+        "is_starter": "False", 
         "name": "kabutops", 
         "size": "Medium", 
         "type": [
@@ -2478,6 +2619,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/e/e8/142Aerodactyl.png/250px-142Aerodactyl.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "aerodactyl", 
         "size": "Medium", 
         "type": [
@@ -2496,6 +2638,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/f/fb/143Snorlax.png/250px-143Snorlax.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "snorlax", 
         "size": "Medium", 
         "type": [
@@ -2513,6 +2656,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/4/4e/144Articuno.png/250px-144Articuno.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "articuno", 
         "size": "Medium", 
         "type": [
@@ -2531,6 +2675,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/e/e3/145Zapdos.png/250px-145Zapdos.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "zapdos", 
         "size": "Medium", 
         "type": [
@@ -2549,6 +2694,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/1/1b/146Moltres.png/250px-146Moltres.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "moltres", 
         "size": "Medium", 
         "type": [
@@ -2567,6 +2713,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/c/cc/147Dratini.png/250px-147Dratini.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "dratini", 
         "size": "Medium", 
         "type": [
@@ -2584,6 +2731,7 @@
         "has_evolution": "True", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/9/93/148Dragonair.png/250px-148Dragonair.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "dragonair", 
         "size": "Big", 
         "type": [
@@ -2601,6 +2749,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/8/8b/149Dragonite.png/250px-149Dragonite.png", 
         "is_evolution": "True", 
+        "is_starter": "False", 
         "name": "dragonite", 
         "size": "Big", 
         "type": [
@@ -2621,6 +2770,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/7/78/150Mewtwo.png/250px-150Mewtwo.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "mewtwo", 
         "size": "Medium", 
         "type": [
@@ -2638,6 +2788,7 @@
         "has_evolution": "False", 
         "img_url": "http://cdn.bulbagarden.net/upload/thumb/b/b1/151Mew.png/250px-151Mew.png", 
         "is_evolution": "False", 
+        "is_starter": "False", 
         "name": "mew", 
         "size": "Small", 
         "type": [
