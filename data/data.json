@@ -110,8 +110,7 @@
         "size": "Medium", 
         "type": [
             "fire", 
-            "flying", 
-            "dragon"
+            "flying" 
         ], 
         "weight": "Medium"
     }, 
