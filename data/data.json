@@ -2399,7 +2399,6 @@
         "size": "Big", 
         "type": [
             "water", 
-            "dark", 
             "flying"
         ], 
         "weight": "Heavy"
@@ -2773,8 +2772,7 @@
         "name": "mewtwo", 
         "size": "Medium", 
         "type": [
-            "psychic", 
-            "fighting"
+            "psychic" 
         ], 
         "weight": "Medium"
     }, 
