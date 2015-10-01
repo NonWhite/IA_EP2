@@ -105,63 +105,6 @@ no( red_color ) :- yes( black_color ) , !.
 no( red_color ) :- yes( white_color ) , !.
 
 /* Hypothesis to be tested */
-guess( arbok ) :- arbok , !.
-guess( onix ) :- onix , !.
-guess( kangaskhan ) :- kangaskhan , !.
-guess( gyarados ) :- gyarados , !.
-guess( lapras ) :- lapras , !.
-guess( dragonair ) :- dragonair , !.
-guess( dragonite ) :- dragonite , !.
-guess( venusaur ) :- venusaur , !.
-guess( charizard ) :- charizard , !.
-guess( blastoise ) :- blastoise , !.
-guess( pidgeot ) :- pidgeot , !.
-guess( ekans ) :- ekans , !.
-guess( nidoqueen ) :- nidoqueen , !.
-guess( nidoking ) :- nidoking , !.
-guess( clefable ) :- clefable , !.
-guess( golbat ) :- golbat , !.
-guess( venomoth ) :- venomoth , !.
-guess( golduck ) :- golduck , !.
-guess( arcanine ) :- arcanine , !.
-guess( poliwrath ) :- poliwrath , !.
-guess( kadabra ) :- kadabra , !.
-guess( alakazam ) :- alakazam , !.
-guess( machoke ) :- machoke , !.
-guess( machamp ) :- machamp , !.
-guess( victreebel ) :- victreebel , !.
-guess( tentacruel ) :- tentacruel , !.
-guess( golem ) :- golem , !.
-guess( rapidash ) :- rapidash , !.
-guess( slowbro ) :- slowbro , !.
-guess( doduo ) :- doduo , !.
-guess( dodrio ) :- dodrio , !.
-guess( dewgong ) :- dewgong , !.
-guess( cloyster ) :- cloyster , !.
-guess( gastly ) :- gastly , !.
-guess( haunter ) :- haunter , !.
-guess( gengar ) :- gengar , !.
-guess( hypno ) :- hypno , !.
-guess( kingler ) :- kingler , !.
-guess( exeggutor ) :- exeggutor , !.
-guess( hitmonlee ) :- hitmonlee , !.
-guess( hitmonchan ) :- hitmonchan , !.
-guess( rhydon ) :- rhydon , !.
-guess( seaking ) :- seaking , !.
-guess( mr_mime ) :- mr_mime , !.
-guess( scyther ) :- scyther , !.
-guess( jynx ) :- jynx , !.
-guess( magmar ) :- magmar , !.
-guess( pinsir ) :- pinsir , !.
-guess( tauros ) :- tauros , !.
-guess( kabutops ) :- kabutops , !.
-guess( aerodactyl ) :- aerodactyl , !.
-guess( snorlax ) :- snorlax , !.
-guess( articuno ) :- articuno , !.
-guess( zapdos ) :- zapdos , !.
-guess( moltres ) :- moltres , !.
-guess( dratini ) :- dratini , !.
-guess( mewtwo ) :- mewtwo , !.
 guess( bulbasaur ) :- bulbasaur , !.
 guess( ivysaur ) :- ivysaur , !.
 guess( charmander ) :- charmander , !.
@@ -256,428 +199,65 @@ guess( omanyte ) :- omanyte , !.
 guess( omastar ) :- omastar , !.
 guess( kabuto ) :- kabuto , !.
 guess( mew ) :- mew , !.
+guess( venusaur ) :- venusaur , !.
+guess( charizard ) :- charizard , !.
+guess( blastoise ) :- blastoise , !.
+guess( pidgeot ) :- pidgeot , !.
+guess( ekans ) :- ekans , !.
+guess( nidoqueen ) :- nidoqueen , !.
+guess( nidoking ) :- nidoking , !.
+guess( clefable ) :- clefable , !.
+guess( golbat ) :- golbat , !.
+guess( venomoth ) :- venomoth , !.
+guess( golduck ) :- golduck , !.
+guess( arcanine ) :- arcanine , !.
+guess( poliwrath ) :- poliwrath , !.
+guess( kadabra ) :- kadabra , !.
+guess( alakazam ) :- alakazam , !.
+guess( machoke ) :- machoke , !.
+guess( machamp ) :- machamp , !.
+guess( victreebel ) :- victreebel , !.
+guess( tentacruel ) :- tentacruel , !.
+guess( golem ) :- golem , !.
+guess( rapidash ) :- rapidash , !.
+guess( slowbro ) :- slowbro , !.
+guess( doduo ) :- doduo , !.
+guess( dodrio ) :- dodrio , !.
+guess( dewgong ) :- dewgong , !.
+guess( cloyster ) :- cloyster , !.
+guess( gastly ) :- gastly , !.
+guess( haunter ) :- haunter , !.
+guess( gengar ) :- gengar , !.
+guess( hypno ) :- hypno , !.
+guess( kingler ) :- kingler , !.
+guess( exeggutor ) :- exeggutor , !.
+guess( hitmonlee ) :- hitmonlee , !.
+guess( hitmonchan ) :- hitmonchan , !.
+guess( rhydon ) :- rhydon , !.
+guess( seaking ) :- seaking , !.
+guess( mr_mime ) :- mr_mime , !.
+guess( scyther ) :- scyther , !.
+guess( jynx ) :- jynx , !.
+guess( magmar ) :- magmar , !.
+guess( pinsir ) :- pinsir , !.
+guess( tauros ) :- tauros , !.
+guess( kabutops ) :- kabutops , !.
+guess( aerodactyl ) :- aerodactyl , !.
+guess( snorlax ) :- snorlax , !.
+guess( articuno ) :- articuno , !.
+guess( zapdos ) :- zapdos , !.
+guess( moltres ) :- moltres , !.
+guess( dratini ) :- dratini , !.
+guess( mewtwo ) :- mewtwo , !.
+guess( arbok ) :- arbok , !.
+guess( onix ) :- onix , !.
+guess( kangaskhan ) :- kangaskhan , !.
+guess( gyarados ) :- gyarados , !.
+guess( lapras ) :- lapras , !.
+guess( dragonair ) :- dragonair , !.
+guess( dragonite ) :- dragonite , !.
 
 /* Description rules */
-arbok :-
-		verify( big_size ) ,
-		verify( poison_type ) ,
-		verify( purple_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-onix :-
-		verify( big_size ) ,
-		verify( ground_type ) ,
-		verify( rock_type ) ,
-		verify( gray_color ) ,
-		verify( medium_weight ) ,
-		!.
-kangaskhan :-
-		verify( big_size ) ,
-		verify( normal_type ) ,
-		verify( brown_color ) ,
-		verify( medium_weight ) ,
-		!.
-gyarados :-
-		verify( big_size ) ,
-		verify( water_type ) ,
-		verify( flying_type ) ,
-		verify( blue_color ) ,
-		verify( heavy_weight ) ,
-		verify( is_evolution ) ,
-		!.
-lapras :-
-		verify( big_size ) ,
-		verify( water_type ) ,
-		verify( ice_type ) ,
-		verify( blue_color ) ,
-		verify( medium_weight ) ,
-		!.
-dragonair :-
-		verify( big_size ) ,
-		verify( dragon_type ) ,
-		verify( blue_color ) ,
-		verify( light_weight ) ,
-		verify( has_evolution ) ,
-		verify( is_evolution ) ,
-		!.
-dragonite :-
-		verify( big_size ) ,
-		verify( flying_type ) ,
-		verify( dragon_type ) ,
-		verify( brown_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-venusaur :-
-		verify( medium_size ) ,
-		verify( grass_type ) ,
-		verify( poison_type ) ,
-		verify( green_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-charizard :-
-		verify( medium_size ) ,
-		verify( fire_type ) ,
-		verify( flying_type ) ,
-		verify( red_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-blastoise :-
-		verify( medium_size ) ,
-		verify( water_type ) ,
-		verify( blue_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-pidgeot :-
-		verify( medium_size ) ,
-		verify( flying_type ) ,
-		verify( normal_type ) ,
-		verify( brown_color ) ,
-		verify( light_weight ) ,
-		verify( is_evolution ) ,
-		!.
-ekans :-
-		verify( medium_size ) ,
-		verify( poison_type ) ,
-		verify( purple_color ) ,
-		verify( light_weight ) ,
-		verify( has_evolution ) ,
-		!.
-nidoqueen :-
-		verify( medium_size ) ,
-		verify( poison_type ) ,
-		verify( ground_type ) ,
-		verify( blue_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-nidoking :-
-		verify( medium_size ) ,
-		verify( poison_type ) ,
-		verify( ground_type ) ,
-		verify( purple_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-clefable :-
-		verify( medium_size ) ,
-		verify( fairy_type ) ,
-		verify( pink_color ) ,
-		verify( light_weight ) ,
-		verify( is_evolution ) ,
-		!.
-golbat :-
-		verify( medium_size ) ,
-		verify( flying_type ) ,
-		verify( poison_type ) ,
-		verify( purple_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-venomoth :-
-		verify( medium_size ) ,
-		verify( bug_type ) ,
-		verify( poison_type ) ,
-		verify( purple_color ) ,
-		verify( light_weight ) ,
-		verify( is_evolution ) ,
-		!.
-golduck :-
-		verify( medium_size ) ,
-		verify( water_type ) ,
-		verify( blue_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-arcanine :-
-		verify( medium_size ) ,
-		verify( fire_type ) ,
-		verify( brown_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-poliwrath :-
-		verify( medium_size ) ,
-		verify( water_type ) ,
-		verify( fighting_type ) ,
-		verify( blue_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-kadabra :-
-		verify( medium_size ) ,
-		verify( psychic_type ) ,
-		verify( brown_color ) ,
-		verify( medium_weight ) ,
-		verify( has_evolution ) ,
-		verify( is_evolution ) ,
-		!.
-alakazam :-
-		verify( medium_size ) ,
-		verify( psychic_type ) ,
-		verify( brown_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-machoke :-
-		verify( medium_size ) ,
-		verify( fighting_type ) ,
-		verify( gray_color ) ,
-		verify( medium_weight ) ,
-		verify( has_evolution ) ,
-		verify( is_evolution ) ,
-		!.
-machamp :-
-		verify( medium_size ) ,
-		verify( fighting_type ) ,
-		verify( gray_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-victreebel :-
-		verify( medium_size ) ,
-		verify( grass_type ) ,
-		verify( poison_type ) ,
-		verify( green_color ) ,
-		verify( light_weight ) ,
-		verify( is_evolution ) ,
-		!.
-tentacruel :-
-		verify( medium_size ) ,
-		verify( water_type ) ,
-		verify( poison_type ) ,
-		verify( blue_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-golem :-
-		verify( medium_size ) ,
-		verify( ground_type ) ,
-		verify( rock_type ) ,
-		verify( brown_color ) ,
-		verify( heavy_weight ) ,
-		verify( is_evolution ) ,
-		!.
-rapidash :-
-		verify( medium_size ) ,
-		verify( fire_type ) ,
-		verify( yellow_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-slowbro :-
-		verify( medium_size ) ,
-		verify( water_type ) ,
-		verify( psychic_type ) ,
-		verify( pink_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-doduo :-
-		verify( medium_size ) ,
-		verify( flying_type ) ,
-		verify( normal_type ) ,
-		verify( brown_color ) ,
-		verify( light_weight ) ,
-		verify( has_evolution ) ,
-		!.
-dodrio :-
-		verify( medium_size ) ,
-		verify( flying_type ) ,
-		verify( normal_type ) ,
-		verify( brown_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-dewgong :-
-		verify( medium_size ) ,
-		verify( water_type ) ,
-		verify( ice_type ) ,
-		verify( white_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-cloyster :-
-		verify( medium_size ) ,
-		verify( water_type ) ,
-		verify( ice_type ) ,
-		verify( purple_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-gastly :-
-		verify( medium_size ) ,
-		verify( ghost_type ) ,
-		verify( poison_type ) ,
-		verify( purple_color ) ,
-		verify( light_weight ) ,
-		verify( has_evolution ) ,
-		!.
-haunter :-
-		verify( medium_size ) ,
-		verify( ghost_type ) ,
-		verify( poison_type ) ,
-		verify( purple_color ) ,
-		verify( light_weight ) ,
-		verify( has_evolution ) ,
-		verify( is_evolution ) ,
-		!.
-gengar :-
-		verify( medium_size ) ,
-		verify( ghost_type ) ,
-		verify( poison_type ) ,
-		verify( purple_color ) ,
-		verify( light_weight ) ,
-		verify( is_evolution ) ,
-		!.
-hypno :-
-		verify( medium_size ) ,
-		verify( psychic_type ) ,
-		verify( yellow_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-kingler :-
-		verify( medium_size ) ,
-		verify( water_type ) ,
-		verify( red_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-exeggutor :-
-		verify( medium_size ) ,
-		verify( psychic_type ) ,
-		verify( grass_type ) ,
-		verify( yellow_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-hitmonlee :-
-		verify( medium_size ) ,
-		verify( fighting_type ) ,
-		verify( brown_color ) ,
-		verify( medium_weight ) ,
-		!.
-hitmonchan :-
-		verify( medium_size ) ,
-		verify( fighting_type ) ,
-		verify( brown_color ) ,
-		verify( medium_weight ) ,
-		!.
-rhydon :-
-		verify( medium_size ) ,
-		verify( rock_type ) ,
-		verify( ground_type ) ,
-		verify( gray_color ) ,
-		verify( medium_weight ) ,
-		verify( is_evolution ) ,
-		!.
-seaking :-
-		verify( medium_size ) ,
-		verify( water_type ) ,
-		verify( red_color ) ,
-		verify( light_weight ) ,
-		verify( is_evolution ) ,
-		!.
-mr_mime :-
-		verify( medium_size ) ,
-		verify( psychic_type ) ,
-		verify( fairy_type ) ,
-		verify( pink_color ) ,
-		verify( medium_weight ) ,
-		!.
-scyther :-
-		verify( medium_size ) ,
-		verify( flying_type ) ,
-		verify( bug_type ) ,
-		verify( green_color ) ,
-		verify( medium_weight ) ,
-		!.
-jynx :-
-		verify( medium_size ) ,
-		verify( psychic_type ) ,
-		verify( ice_type ) ,
-		verify( red_color ) ,
-		verify( light_weight ) ,
-		!.
-magmar :-
-		verify( medium_size ) ,
-		verify( fire_type ) ,
-		verify( red_color ) ,
-		verify( light_weight ) ,
-		!.
-pinsir :-
-		verify( medium_size ) ,
-		verify( flying_type ) ,
-		verify( bug_type ) ,
-		verify( brown_color ) ,
-		verify( medium_weight ) ,
-		!.
-tauros :-
-		verify( medium_size ) ,
-		verify( normal_type ) ,
-		verify( brown_color ) ,
-		verify( medium_weight ) ,
-		!.
-kabutops :-
-		verify( medium_size ) ,
-		verify( water_type ) ,
-		verify( rock_type ) ,
-		verify( brown_color ) ,
-		verify( light_weight ) ,
-		verify( is_evolution ) ,
-		!.
-aerodactyl :-
-		verify( medium_size ) ,
-		verify( flying_type ) ,
-		verify( rock_type ) ,
-		verify( purple_color ) ,
-		verify( medium_weight ) ,
-		!.
-snorlax :-
-		verify( medium_size ) ,
-		verify( normal_type ) ,
-		verify( black_color ) ,
-		verify( heavy_weight ) ,
-		!.
-articuno :-
-		verify( medium_size ) ,
-		verify( flying_type ) ,
-		verify( ice_type ) ,
-		verify( blue_color ) ,
-		verify( medium_weight ) ,
-		!.
-zapdos :-
-		verify( medium_size ) ,
-		verify( flying_type ) ,
-		verify( electric_type ) ,
-		verify( yellow_color ) ,
-		verify( medium_weight ) ,
-		!.
-moltres :-
-		verify( medium_size ) ,
-		verify( fire_type ) ,
-		verify( flying_type ) ,
-		verify( yellow_color ) ,
-		verify( medium_weight ) ,
-		!.
-dratini :-
-		verify( medium_size ) ,
-		verify( dragon_type ) ,
-		verify( blue_color ) ,
-		verify( light_weight ) ,
-		verify( has_evolution ) ,
-		!.
-mewtwo :-
-		verify( medium_size ) ,
-		verify( psychic_type ) ,
-		verify( purple_color ) ,
-		verify( medium_weight ) ,
-		!.
 bulbasaur :-
 		verify( small_size ) ,
 		verify( grass_type ) ,
@@ -1376,4 +956,424 @@ mew :-
 		verify( psychic_type ) ,
 		verify( pink_color ) ,
 		verify( light_weight ) ,
+		!.
+venusaur :-
+		verify( medium_size ) ,
+		verify( grass_type ) ,
+		verify( poison_type ) ,
+		verify( green_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+charizard :-
+		verify( medium_size ) ,
+		verify( fire_type ) ,
+		verify( flying_type ) ,
+		verify( red_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+blastoise :-
+		verify( medium_size ) ,
+		verify( water_type ) ,
+		verify( blue_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+pidgeot :-
+		verify( medium_size ) ,
+		verify( flying_type ) ,
+		verify( normal_type ) ,
+		verify( brown_color ) ,
+		verify( light_weight ) ,
+		verify( is_evolution ) ,
+		!.
+ekans :-
+		verify( medium_size ) ,
+		verify( poison_type ) ,
+		verify( purple_color ) ,
+		verify( light_weight ) ,
+		verify( has_evolution ) ,
+		!.
+nidoqueen :-
+		verify( medium_size ) ,
+		verify( poison_type ) ,
+		verify( ground_type ) ,
+		verify( blue_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+nidoking :-
+		verify( medium_size ) ,
+		verify( poison_type ) ,
+		verify( ground_type ) ,
+		verify( purple_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+clefable :-
+		verify( medium_size ) ,
+		verify( fairy_type ) ,
+		verify( pink_color ) ,
+		verify( light_weight ) ,
+		verify( is_evolution ) ,
+		!.
+golbat :-
+		verify( medium_size ) ,
+		verify( flying_type ) ,
+		verify( poison_type ) ,
+		verify( purple_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+venomoth :-
+		verify( medium_size ) ,
+		verify( bug_type ) ,
+		verify( poison_type ) ,
+		verify( purple_color ) ,
+		verify( light_weight ) ,
+		verify( is_evolution ) ,
+		!.
+golduck :-
+		verify( medium_size ) ,
+		verify( water_type ) ,
+		verify( blue_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+arcanine :-
+		verify( medium_size ) ,
+		verify( fire_type ) ,
+		verify( brown_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+poliwrath :-
+		verify( medium_size ) ,
+		verify( water_type ) ,
+		verify( fighting_type ) ,
+		verify( blue_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+kadabra :-
+		verify( medium_size ) ,
+		verify( psychic_type ) ,
+		verify( brown_color ) ,
+		verify( medium_weight ) ,
+		verify( has_evolution ) ,
+		verify( is_evolution ) ,
+		!.
+alakazam :-
+		verify( medium_size ) ,
+		verify( psychic_type ) ,
+		verify( brown_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+machoke :-
+		verify( medium_size ) ,
+		verify( fighting_type ) ,
+		verify( gray_color ) ,
+		verify( medium_weight ) ,
+		verify( has_evolution ) ,
+		verify( is_evolution ) ,
+		!.
+machamp :-
+		verify( medium_size ) ,
+		verify( fighting_type ) ,
+		verify( gray_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+victreebel :-
+		verify( medium_size ) ,
+		verify( grass_type ) ,
+		verify( poison_type ) ,
+		verify( green_color ) ,
+		verify( light_weight ) ,
+		verify( is_evolution ) ,
+		!.
+tentacruel :-
+		verify( medium_size ) ,
+		verify( water_type ) ,
+		verify( poison_type ) ,
+		verify( blue_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+golem :-
+		verify( medium_size ) ,
+		verify( ground_type ) ,
+		verify( rock_type ) ,
+		verify( brown_color ) ,
+		verify( heavy_weight ) ,
+		verify( is_evolution ) ,
+		!.
+rapidash :-
+		verify( medium_size ) ,
+		verify( fire_type ) ,
+		verify( yellow_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+slowbro :-
+		verify( medium_size ) ,
+		verify( water_type ) ,
+		verify( psychic_type ) ,
+		verify( pink_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+doduo :-
+		verify( medium_size ) ,
+		verify( flying_type ) ,
+		verify( normal_type ) ,
+		verify( brown_color ) ,
+		verify( light_weight ) ,
+		verify( has_evolution ) ,
+		!.
+dodrio :-
+		verify( medium_size ) ,
+		verify( flying_type ) ,
+		verify( normal_type ) ,
+		verify( brown_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+dewgong :-
+		verify( medium_size ) ,
+		verify( water_type ) ,
+		verify( ice_type ) ,
+		verify( white_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+cloyster :-
+		verify( medium_size ) ,
+		verify( water_type ) ,
+		verify( ice_type ) ,
+		verify( purple_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+gastly :-
+		verify( medium_size ) ,
+		verify( ghost_type ) ,
+		verify( poison_type ) ,
+		verify( purple_color ) ,
+		verify( light_weight ) ,
+		verify( has_evolution ) ,
+		!.
+haunter :-
+		verify( medium_size ) ,
+		verify( ghost_type ) ,
+		verify( poison_type ) ,
+		verify( purple_color ) ,
+		verify( light_weight ) ,
+		verify( has_evolution ) ,
+		verify( is_evolution ) ,
+		!.
+gengar :-
+		verify( medium_size ) ,
+		verify( ghost_type ) ,
+		verify( poison_type ) ,
+		verify( purple_color ) ,
+		verify( light_weight ) ,
+		verify( is_evolution ) ,
+		!.
+hypno :-
+		verify( medium_size ) ,
+		verify( psychic_type ) ,
+		verify( yellow_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+kingler :-
+		verify( medium_size ) ,
+		verify( water_type ) ,
+		verify( red_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+exeggutor :-
+		verify( medium_size ) ,
+		verify( psychic_type ) ,
+		verify( grass_type ) ,
+		verify( yellow_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+hitmonlee :-
+		verify( medium_size ) ,
+		verify( fighting_type ) ,
+		verify( brown_color ) ,
+		verify( medium_weight ) ,
+		!.
+hitmonchan :-
+		verify( medium_size ) ,
+		verify( fighting_type ) ,
+		verify( brown_color ) ,
+		verify( medium_weight ) ,
+		!.
+rhydon :-
+		verify( medium_size ) ,
+		verify( rock_type ) ,
+		verify( ground_type ) ,
+		verify( gray_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+seaking :-
+		verify( medium_size ) ,
+		verify( water_type ) ,
+		verify( red_color ) ,
+		verify( light_weight ) ,
+		verify( is_evolution ) ,
+		!.
+mr_mime :-
+		verify( medium_size ) ,
+		verify( psychic_type ) ,
+		verify( fairy_type ) ,
+		verify( pink_color ) ,
+		verify( medium_weight ) ,
+		!.
+scyther :-
+		verify( medium_size ) ,
+		verify( flying_type ) ,
+		verify( bug_type ) ,
+		verify( green_color ) ,
+		verify( medium_weight ) ,
+		!.
+jynx :-
+		verify( medium_size ) ,
+		verify( psychic_type ) ,
+		verify( ice_type ) ,
+		verify( red_color ) ,
+		verify( light_weight ) ,
+		!.
+magmar :-
+		verify( medium_size ) ,
+		verify( fire_type ) ,
+		verify( red_color ) ,
+		verify( light_weight ) ,
+		!.
+pinsir :-
+		verify( medium_size ) ,
+		verify( flying_type ) ,
+		verify( bug_type ) ,
+		verify( brown_color ) ,
+		verify( medium_weight ) ,
+		!.
+tauros :-
+		verify( medium_size ) ,
+		verify( normal_type ) ,
+		verify( brown_color ) ,
+		verify( medium_weight ) ,
+		!.
+kabutops :-
+		verify( medium_size ) ,
+		verify( water_type ) ,
+		verify( rock_type ) ,
+		verify( brown_color ) ,
+		verify( light_weight ) ,
+		verify( is_evolution ) ,
+		!.
+aerodactyl :-
+		verify( medium_size ) ,
+		verify( flying_type ) ,
+		verify( rock_type ) ,
+		verify( purple_color ) ,
+		verify( medium_weight ) ,
+		!.
+snorlax :-
+		verify( medium_size ) ,
+		verify( normal_type ) ,
+		verify( black_color ) ,
+		verify( heavy_weight ) ,
+		!.
+articuno :-
+		verify( medium_size ) ,
+		verify( flying_type ) ,
+		verify( ice_type ) ,
+		verify( blue_color ) ,
+		verify( medium_weight ) ,
+		!.
+zapdos :-
+		verify( medium_size ) ,
+		verify( flying_type ) ,
+		verify( electric_type ) ,
+		verify( yellow_color ) ,
+		verify( medium_weight ) ,
+		!.
+moltres :-
+		verify( medium_size ) ,
+		verify( fire_type ) ,
+		verify( flying_type ) ,
+		verify( yellow_color ) ,
+		verify( medium_weight ) ,
+		!.
+dratini :-
+		verify( medium_size ) ,
+		verify( dragon_type ) ,
+		verify( blue_color ) ,
+		verify( light_weight ) ,
+		verify( has_evolution ) ,
+		!.
+mewtwo :-
+		verify( medium_size ) ,
+		verify( psychic_type ) ,
+		verify( purple_color ) ,
+		verify( medium_weight ) ,
+		!.
+arbok :-
+		verify( big_size ) ,
+		verify( poison_type ) ,
+		verify( purple_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
+		!.
+onix :-
+		verify( big_size ) ,
+		verify( ground_type ) ,
+		verify( rock_type ) ,
+		verify( gray_color ) ,
+		verify( medium_weight ) ,
+		!.
+kangaskhan :-
+		verify( big_size ) ,
+		verify( normal_type ) ,
+		verify( brown_color ) ,
+		verify( medium_weight ) ,
+		!.
+gyarados :-
+		verify( big_size ) ,
+		verify( water_type ) ,
+		verify( flying_type ) ,
+		verify( blue_color ) ,
+		verify( heavy_weight ) ,
+		verify( is_evolution ) ,
+		!.
+lapras :-
+		verify( big_size ) ,
+		verify( water_type ) ,
+		verify( ice_type ) ,
+		verify( blue_color ) ,
+		verify( medium_weight ) ,
+		!.
+dragonair :-
+		verify( big_size ) ,
+		verify( dragon_type ) ,
+		verify( blue_color ) ,
+		verify( light_weight ) ,
+		verify( has_evolution ) ,
+		verify( is_evolution ) ,
+		!.
+dragonite :-
+		verify( big_size ) ,
+		verify( flying_type ) ,
+		verify( dragon_type ) ,
+		verify( brown_color ) ,
+		verify( medium_weight ) ,
+		verify( is_evolution ) ,
 		!.
