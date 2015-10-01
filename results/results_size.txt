@@ -1,0 +1,135 @@
+7
+8
+7
+7
+8
+8
+8
+9
+8
+8
+8 caterpie
+10
+11
+13
+13
+10
+10 pidgey
+10
+10
+11
+10 pidgey
+11 raticate
+10
+7
+11
+12
+12
+13
+13
+13 nidoran_female
+12
+14
+14 nidoran_male
+12
+14
+11
+8
+9
+13 clefairy
+14
+13 nidoran_male
+11
+8 nidoran_female
+8 nidoran_female
+10
+8
+9
+14 nidoran_male
+13
+14
+15
+13
+14
+10
+8 blastoise
+15
+16
+8 vulpix
+8
+12
+9 wartortle
+8 blastoise
+16
+14
+14
+16
+15
+15
+9
+8 ivysaur
+9
+10
+8 blastoise
+14 diglett
+17
+16
+10
+9
+14
+14
+13
+14
+11
+11
+11
+13
+14
+14 nidoran_male
+15
+14
+15
+10 ekans
+10 ekans
+14
+8
+17
+14
+15
+14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
