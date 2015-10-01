@@ -5,30 +5,14 @@
 
 :- dynamic yes/1,no/1.
 
-go :- nl,
-      write('Pense em uma personagem, e eu tentarei adivinhar quem é. Pensou (sim/não)?'),
-      nl,
-      read(Response),
-      nl,
-      (Response == sim ; Response == s),
-      write('Ótimo! Agora, responda sim ou não às seguintes perguntas:'),
-      nl, nl,
+go :- 
       guess(Personagem),
       write('A personagem é '),
       write(Personagem),
       nl,
       undo.
 
-/* hipóteses a serem testadas */
-
-/* regras */
-yes( small_size ) :- no( medium_size ) , no( big_size ) .
-yes( medium_size ) :- no( small_size ) , no( big_size ) .
-yes( big_size ) :- no( small_size ) , no( medium_size ) .
-
-yes( light_weight ) :- no( medium_weight ) , no( heavy_weight ) .
-yes( medium_weight ) :- no( light_weight ) , no( heavy_weight ) .
-yes( heavy_weight ) :- no( light_weight ) , no( medium_weight ) .
+/* INSERT HERE ALL RULES */
 
 /* Selecionador de perguntas */
 ask(Question) :-
@@ -37,7 +21,7 @@ ask(Question) :-
     write('? '),
     read(Response),
     nl,
-    ( (Response == sim ; Response == s)
+    ( (Response == sim ; Response == s ; Response == j )
       ->
       assert(yes(Question)) ;
        assert(no(Question)), fail).
