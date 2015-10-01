@@ -1,6 +1,6 @@
 from utils import *
 
-EXCLUDED_FIELDS = [ 'name' , 'img_url' ]
+EXCLUDED_FIELDS = [ 'ability' , 'description' , 'img_url' , 'name' ]
 
 def calculateStats( data ) :
 	fields = []
@@ -21,8 +21,13 @@ def calculateStats( data ) :
 	return stats
 
 def printStats( stats ) :
-	print stats
-	print 'TODO'
+	for field in stats :
+		print " ========== %s ========== " % field
+		total = sum( [ stats[ field ][ val ] for val in stats[ field ] ] )
+		for val in stats[ field ] :
+			num = stats[ field ][ val ]
+			perc = float( num ) / float( total ) * 100.0
+			print "%-10s:%12s (%.2f%%)" % ( val , num , perc )
 
 if __name__ == "__main__" :
 	data = importAsJson()
