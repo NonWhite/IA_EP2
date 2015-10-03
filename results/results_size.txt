@@ -97,39 +97,55 @@
 14
 15
 14
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+13
+14
+10
+10 hypno
+14 diglett
+16
+14
+14 hitmonlee
+13
+14 nidoran_male
+15 muk
+16
+17
+14
+7
+8
+12 poliwag
+13
+15 krabby
+16
+17
+17
+12
+11
+15
+13
+9
+12
+17
+15 krabby
+11
+11
+11
+13
+13 seadra
+12 raichu
+8
+14 chansey
+12 poliwag
+13 seadra
+17 staryu
+16
+12
+18
+13
+14
+10
+19
+12
+13
+15
+17
