@@ -1,18 +1,32 @@
 import json
 from utils import *
+from stats import *
 
 EXCLUDING_FIELDS = [ 'size' , 'weight' , 'color' ]
 
-def changeToSatisfyRule( pk_data ) :
+def changeToSatisfyRule( pk_data , field_order ) :
 	rule = "%s :-\n" % pk_data[ 'name' ]
-	for t in pk_data[ 'type' ] : rule += "\t\tverify( %s_type ) ,\n" % t
-	rule += "\t\tverify( %s_color ) ,\n" % pk_data[ 'color' ]
-	rule += "\t\tverify( %s_size ) ,\n" % pk_data[ 'size' ]
-	rule += "\t\tverify( %s_weight ) ,\n" % pk_data[ 'weight' ]
-	if pk_data[ 'has_evolution' ] == 'true' : rule += '\t\tverify( has_evolution ) ,\n'
-	if pk_data[ 'is_evolution' ] == 'true' : rule += '\t\tverify( is_evolution ) ,\n'
-	if pk_data[ 'is_starter' ] == 'true' : rule += '\t\tverify( is_starter ) ,\n'
+	for field in field_order :
+		rule += toVerifyRule( field , pk_data[ field ] )
 	rule += "\t\t!."
+	return rule
+
+def toVerifyRule( field , value ) :
+	rule = ''
+	if field == 'type' :
+		for t in value : rule += "\t\tverify( %s_type ) ,\n" % t
+	if field == 'color' :
+		rule += "\t\tverify( %s_color ) ,\n" % value
+	if field == 'size' :
+		rule += "\t\tverify( %s_size ) ,\n" % value
+	if field == 'weight' :
+		rule += "\t\tverify( %s_weight ) ,\n" % value
+	if field == 'has_evolution' :
+		if value == 'true' : rule += '\t\tverify( has_evolution ) ,\n'
+	if field == 'is_evolution' :
+		if value == 'true' : rule += '\t\tverify( is_evolution ) ,\n'
+	if field == 'is_starter' :
+		if value == 'true' : rule += '\t\tverify( is_starter ) ,\n'
 	return rule
 
 def changeToExcludingRule( values , field ) :
@@ -25,6 +39,22 @@ def changeToExcludingRule( values , field ) :
 			rules.append( r )
 	return rules
 
+def orderTuple( pk_data , order , stats ) :
+	resp = []
+	for field in order :
+		val = pk_data[ field ]
+		if isinstance( val , list ) :
+			resp.append( -max( [ stats[ field ][ t ] for t in val ] ) )
+		else :
+			resp.append( -stats[ field ][ val ] )
+	return tuple( resp )
+
+def bestOrder( data ) :
+	stats = calculateStats( data )
+	order = sorted( stats.keys() , key = lambda f : len( stats[ f ] ) )
+	data = sorted( data , key = lambda t : orderTuple( t , order , stats ) )
+	return data , order
+
 def exportRulesFile( data , filename = RULES_FILE ) :
 	with open( filename , 'w' ) as f :
 		f.write( "/* Excluding rules */\n" )
@@ -34,12 +64,13 @@ def exportRulesFile( data , filename = RULES_FILE ) :
 			for r in rules : f.write( "%s\n" % r )
 			f.write( "\n" )
 		f.write( "/* Hypothesis to be tested */\n" )
+		data , order = bestOrder( data )
 		for pk in data :
 			f.write( "guess( %s ) :- %s , !.\n" % ( pk[ 'name' ] , pk[ 'name' ] ) )
 		f.write( "\n" )
 		f.write( "/* Description rules */\n" )
 		for pk in data :
-			rule = changeToSatisfyRule( pk )
+			rule = changeToSatisfyRule( pk , order )
 			f.write( "%s\n" % rule )
 
 if __name__ == '__main__' :
