@@ -1,0 +1,151 @@
+12 bellsprout
+12 bellsprout
+16
+14
+15 flareon
+17
+8 poliwag
+8 poliwag
+12
+12
+12 caterpie
+14
+7
+17 beedrill
+12
+5 farfetchd
+5 farfetchd
+11
+6 ditto
+8
+5 farfetchd
+5 farfecthd
+9
+13
+7 electabuzz
+7 electabuzz
+11
+13
+7
+7 nidoran_female
+12
+8
+8 nidoran_male
+14
+12
+11
+11
+14
+8 chansey
+8 chansey
+8 nidoran_male
+13
+5 tangela
+5 tangela
+13
+12
+14
+8
+10
+9
+9
+10
+11
+9
+12 blastoise
+12
+10
+11 vulpix
+13
+8
+8 poliwag
+11 blastoise
+10
+12 alakazam
+12
+13
+17 machamp
+17
+12
+12 bellsprout
+13
+8
+13
+9 diglett
+12 marowak
+11
+13
+13
+9
+15
+13
+13
+5
+8
+6 tauros
+9
+18
+8 nidoran_male
+10
+11
+15
+9 ekans
+9 ekans
+12
+10
+12
+14
+10
+15
+12
+11
+9 mew
+14 hypno
+9 diglett
+9
+8
+8 hitmonlee
+5
+8 nidoran_male
+10 muk
+9
+17
+8
+5
+7
+8 poliwag
+9
+10 krabby
+10
+7
+11
+12
+12
+6
+7
+6
+8
+6
+10 krabby
+11
+9
+6
+8
+9 seadra
+7 electabuzz
+13
+8 chansey
+8 poliwag
+9 seadra
+7 staryu
+10
+9
+6
+8
+10
+11
+8
+9
+12
+9
+9

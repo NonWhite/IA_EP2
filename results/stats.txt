@@ -1,0 +1,52 @@
+ ========================== DEFAULT ============================ 
+Total Characters = 151
+Conflict Characters = 35
+% Characters = 76.821192053
+Avg. #Questions = 12.880794702
+Stdev. #Questions = 3.28618756275
+ ========================== IS EVOLUTION ============================ 
+Total Characters = 151
+Conflict Characters = 40
+% Characters = 73.5099337748
+Avg. #Questions = 12.5033112583
+Stdev. #Questions = 3.41930630818
+ ========================== SIZE ============================ 
+Total Characters = 151
+Conflict Characters = 35
+% Characters = 76.821192053
+Avg. #Questions = 12.1390728477
+Stdev. #Questions = 2.87527328579
+ ========================== BEST ============================ 
+Total Characters = 151
+Conflict Characters = 49
+% Characters = 67.5496688742
+Avg. #Questions = 10.1258278146
+Stdev. #Questions = 2.96716393382
+
+ =========================== CONFLICTS(33) ============================= 
+[10, 16, 20, 21, 29, 32, 38, 40, 42, 43, 54, 57, 60, 61, 69, 73, 87, 91, 92, 102, 103, 106, 108, 109, 115, 117, 128, 133, 134, 136, 137, 138, 139]
+
+ ========================== DEFAULT ============================ 
+Total Characters = 118
+Conflict Characters = 2
+% Characters = 98.3050847458
+Avg. #Questions = 13.0847457627
+Stdev. #Questions = 3.41333801879
+ ========================== IS EVOLUTION ============================ 
+Total Characters = 118
+Conflict Characters = 7
+% Characters = 94.0677966102
+Avg. #Questions = 12.6610169492
+Stdev. #Questions = 3.47941526422
+ ========================== SIZE ============================ 
+Total Characters = 118
+Conflict Characters = 2
+% Characters = 98.3050847458
+Avg. #Questions = 12.2542372881
+Stdev. #Questions = 2.93574038967
+ ========================== BEST ============================ 
+Total Characters = 118
+Conflict Characters = 16
+% Characters = 86.4406779661
+Avg. #Questions = 10.5677966102
+Stdev. #Questions = 3.00563235822
