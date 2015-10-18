@@ -1,0 +1,33 @@
+\section{Algoritmos de busca}
+\label{sec:algorithms}
+
+Todos os algoritmos de busca que foram desenvolvidos usam a seguinte definição do nós de busca:
+\begin{itemize}
+	\item $state$: Estado do nó
+	\item $parent$: Nó pai no árvore de busca
+	\item $action$: Ação que gerou o nó
+	\item $depth$: Profundidade do nó na árvore de busca
+	\item $g$: Custo do caminho até o nó
+	\item $h$: Heurística de custo até meta
+\end{itemize}
+Os dois primeiros algoritmos serão buscas cegas (ou não informadas), enquanto os dois seguintes serão buscas informadas. A principal diferença entre cada algoritmo é a estratégia de busca (ordem na qual nós são expandidos).
+
+\subsection{Busca em profundidade (DFS)}
+\label{subsec:dfs}
+Nesta busca é escolhida a folha mais profunda. A borda é uma pilha, os nós são inseridos no começo.
+
+\subsection{Busca em largura (BFS)}
+\label{subsec:bfs}
+A estratégia de busca é escolher a folha de menor profundidade não explorada. Borda é uma fila, novos nós são colocados no fim.
+
+\subsection{Busca de melhor escolha (BestFS)}
+\label{subsec:bestfs}
+Este tipo de busca precisa ter uma função heurística $h( n )$ que prediz o custo do nó $n$ para chegar até a meta. Uma heurística que poderia ser considerada é a distância de Manhattan:
+	\[ {dist}( p1 , p2 ) = | p1.x - p2.x | + | p1.y - p1.y | \]
+Onde $x$ é a coluna e $y$ a fila no tabuleiro. No problema, a heurística poderia ser $h( n ) = {dist}( p_n , p_{meta} )$, onde $p_n$ é a posição da peça atual no nó $n$ e $p_{meta}$ a posição meta. Mas tem um problema com aquela heurística porque não é admissível, ou seja, podem ser obtidos valores maiores que o custo ótimo para chegar a meta. Fazendo algumas modificações a aquela heurística temos:
+	\[ h( n ) = | p_n.x - p_{meta}.x | + ( p_n.y > 0 ) \]
+O termo da diferença das filas das posições foi eliminada porque quando a peça está na mesma coluna da posição meta só precisa fazer uma operação \textit{drop} para chegar. Então a estratégia de busca só é escolher o nó com menor valor de $h( n )$ ainda não explorado.
+	
+\subsection{Busca $A^*$}
+\label{subsec:astar}
+Escolhe o nó com menor valor para $f( n ) = h( n ) + g( n )$ ainda não explorado, onde $g( n )$ é o custo do caminho até o nó $n$ e $h( n )$ é a heurística descrita em~\ref{subsec:bestfs}. Pode ser assumido que cada ação tem custo 1 e portanto a função $g( n )$ aumenta em 1 em cada expansão.

@@ -1,0 +1,61 @@
+\section{Experimentos e resultados}
+\label{sec:experiments}
+
+Nesta seção será detalhado o experimento feito usando os diferentes métodos de busca desenvolvidos. Além disso, os resultados serão mostrados para fazer algumas comparações.
+
+\subsection{Considerações geráis}
+\label{subsec:setup}
+Para o experimento foi considerado uma sequência fixa de peças para todos os métodos de busca. A sequência é SZSTI (ver Figura~\ref{fig:tetraminos}). Além disso, as seguintes medidas de comparação foram calculadas:
+\begin{itemize}
+	\item Tamanho da solução ($d$)
+	\item Nós gerados (${ng}$)
+	\item Nós expandidos (${ne}$)
+	\item Fator de ramificação ($b$)
+\end{itemize}
+
+\subsection{Resultados}
+\label{subsec:results}
+
+A tabela~\ref{tab:comparison} mostra os resultados para o conjunto de peças descritos em~\ref{subsec:setup} para todos os métodos de busca.
+	\begin{table}[ h ]
+		\centering
+		\begin{tabular}{|c|l|c|c|c|c|}
+			\hline
+			Peça & Busca & $d$ & $ng$ & $ne$ & $b$ \\ \hline
+			\multirow{5}{*}{S} & DFS & \textcolor{red}{36} & 1701 & 1620 & \textbf{1.05} \\ \cline{2-6}
+					& BFS & \textbf{13} & \textcolor{red}{25716} & \textcolor{red}{14059} & 1.83  \\ \cline{2-6}
+					& BestFS & \textbf{13} & \textbf{59} & \textbf{22} & \textcolor{red}{2.68}  \\ \cline{2-6}
+					& $A^*$ & \textbf{13} & 1282 & 753 & 1.70 \\ \hline
+
+			\multirow{5}{*}{Z} & DFS & \textcolor{red}{36} & 490 & 407 & \textbf{1.20} \\ \cline{2-6}
+					& BFS & \textbf{13} & \textcolor{red}{25803} & \textcolor{red}{14149} & 1.82  \\ \cline{2-6}
+					& BestFS & 17 & \textbf{107} & \textbf{38} & \textcolor{red}{2.82}  \\ \cline{2-6}
+					& $A^*$ & \textbf{13} & 1888 & 1104 & 1.71 \\ \hline
+
+			\multirow{5}{*}{S} & DFS & \textcolor{red}{31} & 57693 & \textcolor{red}{57623} & \textbf{1.00} \\ \cline{2-6}
+					& BFS & \textbf{15} & \textcolor{red}{75437} & 42450 & 1.78  \\ \cline{2-6}
+					& BestFS & 19 & \textbf{88} & \textbf{35} & \textcolor{red}{2.51}  \\ \cline{2-6}
+					& $A^*$ & \textbf{15} & 2894 & 1735 & 1.67 \\ \hline
+
+			\multirow{5}{*}{T} & DFS & \textcolor{red}{35} & \textcolor{red}{144} & \textcolor{red}{58} & \textbf{2.48} \\ \cline{2-6}
+					& BFS & \textbf{1} & \textbf{6} & \textbf{2} & \textcolor{red}{3.00}  \\ \cline{2-6}
+					& BestFS & \textbf{1} & \textbf{6} & \textbf{2} & \textcolor{red}{3.00}  \\ \cline{2-6}
+					& $A^*$ & \textbf{1} & \textbf{6} & \textbf{2} & \textcolor{red}{3.00} \\ \hline
+
+			\multirow{5}{*}{I} & DFS & \textcolor{red}{27} & \textcolor{red}{727255} & \textcolor{red}{727203} & \textbf{1.00} \\ \cline{2-6}
+					& BFS & \textbf{17} & 192651 & 116067 & 1.66  \\ \cline{2-6}
+					& BestFS & 25 & \textbf{165} & \textbf{87} & \textcolor{red}{1.90}  \\ \cline{2-6}
+					& $A^*$ & \textbf{17} & 6753 & 4096 & 1.65 \\ \hline
+		\end{tabular}
+		\caption{Medidas para cada peça e cada método de busca. Em vermelho os valores maiores e em preto os valores menores para cada medida}
+		\label{tab:comparison}
+	\end{table}
+	
+	
+	
+	
+	
+	
+	
+	
+	

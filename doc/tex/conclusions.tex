@@ -1,0 +1,11 @@
+\section{Conclusões}
+	Com os dados na tabela~\ref{tab:comparison}, pode-se concluir em geral que:
+	\begin{itemize}
+		\item Usando DFS, o tamanho da solução sempre é maior a outros tipos de busca porque sua estratégia é escolher o nó com maior profundidade sem considerar alguma informação
+		\item DFS tem menor valor do fator médio de ramificação porque, em geral, expande quase todos os nós que foram gerados devido a sua estratégia
+		\item O número de nós gerados e nós expandidos é consideravelmente maior usando BFS que outros tipos de busca. Além disso, usa mais memória porque sempre salva todos os nós na memória
+		\item Sempre é obtida uma solução de tamanho menor usando BFS porque sempre expande os nós ordenados pela profundidade
+		\item A busca de melhor escolha (BestFS) não precisa gerar nem expandir muitos nós para encontrar uma solução, mas o tamanho da solução não é sempre o menor de todos os métodos. Além disso, não precisa expandir muitos nós para encontrar uma solução e por isso tem o maior fator médio de ramificação entre todos os métodos
+		\item Com a busca $A^*$ sempre é obtida uma solução de tamanho igual a busca BFS, mas a diferença entre os nós gerados por $A^*$ e BFS é muito considerável apesar que o fator médio de ramificação é muito parecido entre ambas buscas. Da mesma forma para os nós expandidos
+	\end{itemize}
+	Por último, uma possível melhoria ao sistema poderia ser considerar a seguinte peça que vai ser jogada. Por outro lado, poderia encontra-se uma melhor heurística para a busca BestFS e $A^*$ dado que aqueles são os métodos mais rápidos e que consomem menos memória. Da mesma forma, para a heurística da primeira etapa (aquela que encontra a melhor posição para a peça) poderiam ser feitos experimentos para obter a melhor combinação de valores dos fatores de importância nos termos da função.
