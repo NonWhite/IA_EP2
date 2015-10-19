@@ -1,0 +1,30 @@
+\section{Regras}
+\label{sec:rules}
+
+Além das características que descrevem cada personagem, a base de conhecimento precisa de regras para poder inferir qual é a personagem que o usuário está pensando. Nesta seção serão explicadas as regras colocadas na base de conhecimento.
+
+\subsection{Regras de descrição}
+\label{subsec:description}
+Para que o programa consiga inferir o personagem, tem que existir fatos diferentes na base de conhecimento para cada um. Então para cada característica o jeito de representar um fato é da seguinte forma:
+	\begin{itemize}
+		\item $V$\_type
+		\item $V$\_color
+		\item $V$\_size
+		\item $V$\_weight
+	\end{itemize}
+Onde $V$ é um dos possíveis valores para cada atributo. Além disso, para as características binarias (true,false) só vão existir se fossem verdadeiros para algum personagem.\\
+Por exemplo, a primeira personagem se representa
+	\begin{lstlisting}
+		bulbasaur :- verify( grass_type ) ,
+					verify( posion_type ) ,
+					verify( green_color ) ,
+					verify( small_size ) ,
+					verify( light_weight ) ,
+					verify( has_evolution ) ,
+					verify( is_starter ) , ! .
+	\end{lstlisting}
+Por último, a função ${verify}$ é usada para perguntar ao usuário por aquele fato.
+
+\subsection{Regras de exclusão}
+\label{subsec:exclusion}
+
