@@ -23,10 +23,14 @@ def calculateStats( data ) :
 def printStats( stats ) :
 	for field in stats :
 		print " ========== %s ========== " % field
+		fieldstats = []
 		total = sum( [ stats[ field ][ val ] for val in stats[ field ] ] )
 		for val in stats[ field ] :
 			num = stats[ field ][ val ]
 			perc = float( num ) / float( total ) * 100.0
+			fieldstats.append( ( num , val , perc ) )
+		fieldstats = sorted( fieldstats )
+		for ( num , val , perc ) in fieldstats :
 			print "%-10s:%12s (%.2f%%)" % ( val , num , perc )
 
 if __name__ == "__main__" :
